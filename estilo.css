@@ -144,6 +144,26 @@ nav.navbar-transparente{
 	padding-left: 80px;
 }
 
+/* -- Login -- */
+
+#login{
+	
+	background: white;
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	display: inline-flex;
+	max-width: 25em;
+	
+}
+
+#spaceLogin{
+	padding-top: 10em;
+	padding-left: 32em;
+	margin-bottom: -10.33em;
+	
+}
+
+
 /* -- Rodapé --*/
 
 footer{
@@ -181,6 +201,10 @@ h3{
 }
 
 #servicos h2, #servicos h3{
+	color: #7c25f8;
+}
+
+#login h2, #login h3{
 	color: #7c25f8;
 }
 
