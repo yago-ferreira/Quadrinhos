@@ -148,19 +148,24 @@ nav.navbar-transparente{
 
 #login{
 	
-	background: white;
 	padding-top: 20px; 
-	padding-bottom: 20px; 
 	display: inline-flex;
 	max-width: 25em;
 	
 }
 
-#spaceLogin{
-	padding-top: 10em;
-	padding-left: 32em;
-	margin-bottom: -10.33em;
+
+#panelLogin{
 	
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin-top: 11em;
+	margin-left: 30em;
+	border: 1px solid;
+	border-radius: 10px 5% / 20px 30px;
+	padding: 7px 7px 7px 7px;
+	margin-bottom: -10.33em;
 }
 
 
