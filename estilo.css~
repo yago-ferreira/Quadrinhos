@@ -12,9 +12,10 @@ html, body, .capa{
 
 body{
 	
-	background: url('imagens/teste.jpg'), 
+	background: #3c3535;
+					/*url('imagens/teste.jpg'), 
 					url('imagens/ruido.png'),
-					linear-gradient(10deg, #ff4169, #7c26f8);
+					linear-gradient(10deg, #ff4169, #7c26f8);*/
 	background-attachment: fixed;
 	font-family: Helvetica, Arial, sans-serif;
 	
@@ -25,8 +26,6 @@ body{
 .quandrinhos-logo{
 	color: white;
 }
-
-
 
 nav.navbar-transparente{
 	padding: 15px 0px;
@@ -112,10 +111,21 @@ nav.navbar-transparente{
 	color: black;
 }
 
+/*Secao do Carrossel de Quadrinhos*/
+
+#panelQuadrinho{
+	display: inline-flex;
+}
+
+#spaceQuadrinhos{
+	padding-left: 10px;
+}
+
 /* -- Secao de servicos --*/
 
 #servicos{
 	background: white;
+	margin-top: 70px;
 	padding-top: 20px; 
 	padding-bottom: 20px; 
 }
@@ -143,6 +153,31 @@ nav.navbar-transparente{
 	-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera*/
 	padding-left: 80px;
 }
+
+/* -- Login -- */
+
+#login{
+	
+	padding-top: 20px; 
+	display: inline-flex;
+	max-width: 25em;
+	
+}
+
+
+#panelLogin{
+	
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin-top: 11em;
+	margin-left: 30em;
+	border: 1px solid;
+	border-radius: 10px 5% / 20px 30px;
+	padding: 7px 7px 7px 7px;
+	margin-bottom: -10.33em;
+}
+
 
 /* -- Rodapé --*/
 
@@ -181,6 +216,10 @@ h3{
 }
 
 #servicos h2, #servicos h3{
+	color: #7c25f8;
+}
+
+#login h2, #login h3{
 	color: #7c25f8;
 }
 

@@ -12,9 +12,10 @@ html, body, .capa{
 
 body{
 	
-	background: url('imagens/teste.jpg'), 
+	background: #3c3535;
+					/*url('imagens/teste.jpg'), 
 					url('imagens/ruido.png'),
-					linear-gradient(10deg, #ff4169, #7c26f8);
+					linear-gradient(10deg, #ff4169, #7c26f8);*/
 	background-attachment: fixed;
 	font-family: Helvetica, Arial, sans-serif;
 	
@@ -25,8 +26,6 @@ body{
 .quandrinhos-logo{
 	color: white;
 }
-
-
 
 nav.navbar-transparente{
 	padding: 15px 0px;
@@ -112,10 +111,21 @@ nav.navbar-transparente{
 	color: black;
 }
 
+/*Secao do Carrossel de Quadrinhos*/
+
+#panelQuadrinho{
+	display: inline-flex;
+}
+
+#spaceQuadrinhos{
+	padding-left: 10px;
+}
+
 /* -- Secao de servicos --*/
 
 #servicos{
 	background: white;
+	margin-top: 70px;
 	padding-top: 20px; 
 	padding-bottom: 20px; 
 }
