@@ -187,15 +187,29 @@ nav.navbar-transparente{
 
 #spaceTitleLogin{
 	text-align: center !important;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
+	margin-top: -1em;
 }
 
 #spaceFormLogin{
-	margin-bottom: 4em;
+	margin-bottom: 5em;
 }
 
 #btnEntrar{
+	padding-bottom: 1em;
+}
 
+#esqueciSenha{
+	font-size: 12px;
+	padding-left: 12em;
+}
+
+#opcaoCadastro{
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    text-align: center !important;
 }
 
 
