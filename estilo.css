@@ -312,6 +312,9 @@ h4{
 	h1{
 		font-size: 100px;	
 	}
+	h3{
+		padding-top: 0.5em;
+	}
 	.btn-custom{
 		margin: 10px 10px;	
 	}
