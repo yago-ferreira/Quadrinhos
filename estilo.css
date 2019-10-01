@@ -123,7 +123,7 @@ nav.navbar-transparente{
 }
 
 #spaceCarousel{
-	padding-top: 10em;
+	padding-top: 2em;
 	padding-bottom: 5em;
 }
 
@@ -238,6 +238,12 @@ h2{
 }
 h3{
 	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h4{
+	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 }
